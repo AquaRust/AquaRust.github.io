@@ -1591,12 +1591,14 @@ header .logo a {
 }
 
 .intro-content {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+	display: flex;
 	-webkit-transform: translateY(-2.1rem);
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
 }
 
 .intro-content h1 {
