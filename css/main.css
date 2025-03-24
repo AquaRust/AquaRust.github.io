@@ -3071,3 +3071,23 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+
+.linkedin-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.linkedin-link {
+  background-color: #0A66C2;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.linkedin-link:hover {
+  background-color: #004182;
+}
